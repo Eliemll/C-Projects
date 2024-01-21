@@ -34,7 +34,7 @@ public:
         if (montant <= solde)
         {
             solde -= montant;
-            enregistrerTransaction(montant, nomTransaction);
+            enregistrerTransaction(-montant, nomTransaction);
         }
         else
         {
