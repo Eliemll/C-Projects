@@ -12,7 +12,7 @@ private:
     // Déclaration des transactions
     std::map<std::string, double> transactions;
 
-    // Déclaration des la fonction enregistrerTransaction
+    // Déclaration de la fonction enregistrerTransaction
     void enregistrerTransaction(double montant, const std::string &nom)
     {
         transactions[nom] += montant;
