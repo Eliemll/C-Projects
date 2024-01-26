@@ -150,7 +150,7 @@ int main()
     // Boucle do pour les opérations
     do
     {
-        Compte_courant.effectuerOpération();
+        Compte_courant.effectuerOperation();
 
         std::cout << "Voulez vous faire une autre opération ? : (Oui/Non) : ";
         std::cin >> continuer;
